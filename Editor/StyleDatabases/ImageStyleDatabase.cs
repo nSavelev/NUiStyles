@@ -23,6 +23,7 @@ namespace UI.Styles.Editor
         
         public override void Copy(Image component)
         {
+            base.Copy(component);
             Sprite = component.sprite;
             PreserveAspect = component.preserveAspect;
             Type = component.type;
