@@ -45,8 +45,8 @@ namespace UI.Styles.Editor
     [CreateAssetMenu(fileName = "Image Styles", menuName = "N Ui/Styles/Image", order = 0)]
     public class ImageStyleDatabase : AbstractStyleDatabase<ImageStyle, Image>
     {
-        [CustomEditor(typeof(TMPTextStyleDatabase))]
-        public class TMPTextStyleDatabaseCE : AbstractStyleDatabaseCE<Image>{}
+        [CustomEditor(typeof(ImageStyleDatabase))]
+        public class ImageStyleDatabaseCE : AbstractStyleDatabaseCE<Image>{}
 
     }
 }
