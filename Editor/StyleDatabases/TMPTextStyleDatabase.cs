@@ -19,6 +19,7 @@ namespace UI.Styles.Editor
 
         public override void Copy(TMP_Text component)
         {
+            base.Copy(component);
             Font = component.font;
             FontMaterial = component.fontSharedMaterial;
             Size = component.fontSize;
