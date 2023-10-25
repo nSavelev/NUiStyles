@@ -1,0 +1,16 @@
+{
+  "name": "game.nsavelev.n_ui_styles",
+  "displayName": "N Ui Styles",
+  "version": "1.0.0",
+  "unity": "2020.3",
+  "description": "Easy way to standertize UI creation without tone of prefabs",
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6"
+  },
+  "keywords": [
+    "Editor",
+    "UI",
+    "UT tools"
+  ],
+  "category": "Text Rendering"
+}
